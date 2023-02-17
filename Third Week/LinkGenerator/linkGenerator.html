@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link Generator</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: rgb(99, 100, 99);
+        width: 100%;
+        height: 100%;
+      }
+      .container {
+        background-color: rgb(86, 202, 92);
+        width: 300px;
+        height: 350px;
+        margin: 200px auto;
+        text-align: center;
+      }
+      .form {
+        font-size: 20px;
+        display: block;
+        margin: 10px auto;
+        width: 250px;
+        height: 30px;
+      }
+      button {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerador de link pro whatsapp</h1>
+      <form name="formMain" class="form">
+        <label for="number">Número de Celular:</label
+        ><input type="text" name="number" id="number" /> <br />
+        <label for="message">Mensagem:</label
+        ><input type="text" name="message" id="message" /> <br />
+
+        <p id="endURL"></p>
+        <button type="button" onclick="linkGenerator()">
+          <strong>Gerar Link</strong>
+        </button>
+      </form>
+      <script src="linkGenerator.js"></script>
+    </div>
+  </body>
+</html>
