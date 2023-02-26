@@ -44,10 +44,10 @@ class caixaRegistradora {
   }
 }
 
-const manuel = new caixaRegistradora();
+const manoel = new caixaRegistradora();
 
-console.log(manuel.adicionarEstoque(542613, "arroz", 4.59));
-console.log(manuel.addNome("Roberto", 100));
-console.log(manuel.iniciarAtendimento("Roberto"));
-console.log(manuel.caixaRegistrador(542613, 3));
-console.log(manuel.fecharConta());
+console.log(manoel.adicionarEstoque(542613, "arroz", 4.59));
+console.log(manoel.addNome("Roberto", 100));
+console.log(manoel.iniciarAtendimento("Roberto"));
+console.log(manoel.caixaRegistrador(542613, 3));
+console.log(manoel.fecharConta());
