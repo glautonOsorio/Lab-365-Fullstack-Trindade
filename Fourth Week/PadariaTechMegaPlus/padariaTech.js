@@ -25,6 +25,7 @@ class caixaRegistradora {
   }
   caixaRegistrador(codigo, quantidade) {
     if (codigo == this.estoque[0]) {
+      console.log(`Você comprou ${this.quantidade[0]} de ${this.estoque[1]} `);
       return parseInt(this.quantidade.push(quantidade));
     } else {
       return console.log(`Seu codigo esta errado`);
@@ -46,7 +47,7 @@ class caixaRegistradora {
 
 const manoel = new caixaRegistradora();
 
-console.log(manoel.adicionarEstoque(542613, "arroz", 4.59));
+console.log(manoel.adicionarEstoque(542613, "Pão Doce", 4.59));
 console.log(manoel.addNome("Roberto", 100));
 console.log(manoel.iniciarAtendimento("Roberto"));
 console.log(manoel.caixaRegistrador(542613, 3));
