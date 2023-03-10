@@ -10,8 +10,8 @@ let ryuGa = [
   { name: "Yakuza 3" },
 ];
 
-app.get("/Tsuda", (req, res) => {
-  res.send(`Rota de API criada pelo(a)${req.params.Tsuda}`);
+app.get("/:nome", (req, res) => {
+  res.send(`Rota de API criada pelo(a) ${req.params.nome}`);
 });
 
 app.get("/ryuGa", (req, res) => {
