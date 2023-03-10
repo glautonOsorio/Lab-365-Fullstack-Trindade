@@ -1,6 +1,8 @@
 /// [M1S06] Ex 1 - Estrutura de projeto
 
-console.log("  ");
+console.log(
+  " A estrtura usada pelo node e a de modulos, resumindo guardar infromações diferentes em pastas organizadas para com que o codigo fique legivel e menos maçante."
+);
 
 /// [M1S06] Ex 2 - Verbos HTTP
 
