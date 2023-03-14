@@ -1,0 +1,32 @@
+[
+  {
+    "name": "guts",
+    "carrer": "andarilho",
+    "id": 45,
+    "pass": "casca"
+  },
+  {
+    "name": "diavolo",
+    "carrer": "lider",
+    "id": 22,
+    "pass": "crimson"
+  },
+  {
+    "name": "kaiba",
+    "carrer": "ceo",
+    "id": 333,
+    "pass": "dragon"
+  },
+  {
+    "name": "kenshiro",
+    "carrer": "andarilho",
+    "id": 100,
+    "pass": "hyakuretsuken"
+  },
+  {
+    "name": "netero",
+    "carrer": "lider",
+    "id": 99,
+    "pass": "kanon"
+  }
+]
