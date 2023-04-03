@@ -8,17 +8,17 @@ const Place = connection.define("place", {
     primaryKey: true,
   },
   name: {
-    type: Sequelize.STRING, // varchar(255)
+    type: Sequelize.STRING,
     allowNull: false,
   },
   contact: {
-    type: Sequelize.STRING, // varchar(255)
+    type: Sequelize.STRING,
   },
   opening_hours: {
-    type: Sequelize.STRING, // varchar(255)
+    type: Sequelize.STRING,
   },
   description: {
-    type: Sequelize.STRING, // varchar(255)
+    type: Sequelize.STRING,
   },
   latitude: {
     type: Sequelize.DECIMAL,
