@@ -1,12 +1,48 @@
 const express = require("express");
-const database = require("./src/database/database");
-const models = require("./src/models/models");
+const connection = require("./src/database/database");
+const Place = require("./src/models/place");
 
-const sequelize = require("sequelize");
 const app = express();
-app.use(express.json);
 
-database.sync();
-console.log("The connection has started brother");
+app.use(express.json()); //obrigatório
+
+connection.authenticate();
+connection.sync({ alter: true });
+
+app.post("/places", async (req, res) => {
+  try {
+    const data = {
+      name: req.body.name,
+      contact: req.body.contact,
+      opening_hours: req.body.opening_hours,
+      description: req.body.description,
+      latitude: req.body.latitude,
+      longitude: req.body.longitude,
+    };
+
+    const place = await Place.create(data);
+
+    res.status(201).json(place);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Não possivel concluir a operação" });
+  }
+});
+
+app.get("/places", async (req, res) => {
+  try {
+    const places = await Place.findAll();
+    return res.json(places);
+  } catch (error) {}
+});
+
+app.delete("/places/:id", async (req, res) => {
+  try {
+    await Place.destroy({ where: { id: parseInt(req.params.id) } });
+    return res.status(200).json({ Message: "The place was deleted" });
+  } catch (error) {
+    return res.status(500).json({ message: "There was a error" });
+  }
+});
 
 app.listen(3333, () => console.log("Aplicação online"));
