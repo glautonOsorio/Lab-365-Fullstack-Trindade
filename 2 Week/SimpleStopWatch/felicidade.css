@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100wh;
+  height: 100vh;
+  background-color: #2e1847;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  border: solid;
+  background-color: rgb(123, 94, 253);
+  border-color: rgb(70, 70, 236);
+  border-width: 10px;
+  padding: auto;
+}
