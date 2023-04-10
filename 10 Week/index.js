@@ -1,13 +1,11 @@
 const express = require("express");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
-
 const connection = require("./src/database/database");
 const Place = require("./src/models/place");
-const User = require("./src/models/user");
 
 const app = express();
+
 app.use(express.json());
+
 connection.authenticate();
 connection.sync({ alter: true });
 
@@ -66,35 +64,6 @@ app.put("/places/:id", async (req, res) => {
   } catch (error) {
     return res.status(500).json({ message: "There was a error" });
   }
-
-  app.post("/places/users", async (req, res) => {
-    try {
-      const userInDatabase = await User.findOne({
-        where: { email: req.body.email, username: req.body.username },
-      });
-      if (userInDatabase) {
-        return res
-          .status(403)
-          .json({ message: "The Email or username is alredy in use" });
-      }
-      const hash = await bcrypt.hash(req.body.password, 10);
-
-      const newUser = {
-        name: req.body.name,
-        email: req.body.email,
-        username: req.body.username,
-        password: hash,
-      };
-
-      const user = await User.create(newUser);
-
-      res.status(201).json(user);
-    } catch (error) {
-      res
-        .status(500)
-        .json({ message: "Não conseguimos processar sua solicitação." });
-    }
-  });
 });
 
 app.listen(3333, () => console.log("Aplicação online"));
