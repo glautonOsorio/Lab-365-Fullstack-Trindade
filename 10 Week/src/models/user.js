@@ -1,5 +1,5 @@
 const { Sequelize } = require("sequelize");
-const connection = require("../database/index");
+const connection = require("../database/database");
 
 const User = connection.define("user", {
   id: {
@@ -12,7 +12,12 @@ const User = connection.define("user", {
     type: Sequelize.STRING,
     allowNull: false,
   },
-  cpf: {
+  email: {
+    type: Sequelize.STRING,
+    allowNull: false,
+    unique: true,
+  },
+  userName: {
     type: Sequelize.STRING,
     allowNull: false,
     unique: true,

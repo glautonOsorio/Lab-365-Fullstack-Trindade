@@ -1,11 +1,13 @@
 {
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "pg": "^8.10.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.30.0"
+    "sequelize": "^6.31.0",
+    "yup": "^1.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
