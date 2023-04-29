@@ -25,7 +25,7 @@ app.get("/places", validateToken, getPlace);
 app.delete("/places/:id", validateToken, deletePlace);
 app.put("/places/:id", validateToken, updatePlace);
 
-app.post("/users", createUser);
+app.post("/users", validateNewUser, createUser);
 app.post("/users/login", createLogin);
 
 app.listen(3333, () => console.log("Aplicação online"));
