@@ -1,0 +1,64 @@
+@import "templates.css";
+body {
+  background-color: var(--bodyColor);
+}
+.container {
+  margin: 150px auto;
+  width: 500px;
+  padding: 10px;
+  height: 500px;
+  background: var(--containerColor);
+  color: var(--normalText);
+  text-align: center;
+  display: block;
+}
+
+#formLogin {
+  margin: 70px 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input1 {
+  background-color: var(--inputFill);
+  height: 50px;
+  width: 400px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.input2 {
+  background-color: var(--inputFill);
+  height: 50px;
+  width: 400px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.enterBtn {
+  margin: 30px auto;
+  background-color: var(--btnDefault);
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 30px;
+  line-height: 10px;
+  border-color: black;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+  line-height: 10px;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--muteText);
+}
+
+.textLink {
+  color: var(--linkText);
+}
