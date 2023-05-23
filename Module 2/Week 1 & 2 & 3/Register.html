@@ -11,36 +11,68 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/styles/login.css"
+    <link rel="stylesheet" href="./assets/styles/register.css"
   </head>
   <body>
     <div class="container">
-      <h1><strong>Sign-In</strong></h1>
+      <h1><strong>Sign-Up</strong></h1>
       <span>Use you email and password to login into your acount</span>
       <form id="formLogin">
         <input
-          class="input1"
-          type="email"
-          placeholder="example@hotmail.com"
-          id="email"
-          name="email"
-          required
+          type="text"
+          class="form-control inputCompany"
+          placeholder="Company"
+          aria-label="Company"
+          aria-describedby="basic-addon1"
         />
-
         <input
-          class="input2"
-          type="password"
-          placeholder="ultrapassword9000"
-          id="password"
-          name="password"
-          required
+          type="text"
+          class="form-control input_cnpj"
+          placeholder="CNPJ"
+          aria-label="CNPJ"
+          aria-describedby="basic-addon1"
         />
+        <input
+          type="text"
+          class="form-control input_ceo"
+          placeholder="Ceo"
+          aria-label="Ceo"
+          aria-describedby="basic-addon1"
+        />
+        <div class="containerRow1">
+          <input
+            type="text"
+            class="form-control input_telephone"
+            placeholder="Telephone"
+            aria-label="Telephone"
+            aria-describedby="basic-addon1"
+          />
+          <input
+            type="email"
+            class="form-control input_email"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+        </div>
+        <div class="containerRow2">
+          <input
+            type="password"
+            class="form-control input_password"
+            id="exampleInputPassword1"
+            placeholder="Password"
+          />
+          <input
+            type="password"
+            class="form-control input_password-confirm"
+            id="exampleInputPassword1"
+            placeholder="Confirm Password"
+          />
+        </div>
+
         <button type="button" class="btn btn-success enterBtn">Enter</button>
         <div class="text">
-          <span>
-            Esqueceu sua senha? <a class="textLink">Redefinir senha</a></span
-          >
-          <span> Ainda não tem conta? <a class="textLink">Cadastre-se</a></span>
+          <span> Ja tem uma conta? <a class="textLink">Realizar login</a></span>
         </div>
       </form>
     </div>

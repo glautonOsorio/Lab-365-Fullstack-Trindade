@@ -5,8 +5,8 @@ body {
 .container {
   margin: 150px auto;
   width: 500px;
-  padding: 10px;
-  height: 500px;
+  padding: 1px;
+  height: 600px;
   background: var(--containerColor);
   color: var(--normalText);
   text-align: center;
@@ -14,24 +14,73 @@ body {
 }
 
 #formLogin {
-  margin: 70px 30px;
+  margin: 30px 50px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
 }
 
-.input1 {
+.inputCompany {
   background-color: var(--inputFill);
-  height: 50px;
+  height: 40px;
   width: 400px;
   border-radius: 15px;
   padding: 10px;
 }
-.input2 {
+.input_cnpj {
   background-color: var(--inputFill);
-  height: 50px;
+  height: 40px;
   width: 400px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.input_ceo {
+  background-color: var(--inputFill);
+  height: 40px;
+  width: 400px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.containerRow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 400px;
+}
+.containerRow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  width: 400px;
+}
+.input_telephone {
+  background-color: var(--inputFill);
+  height: 40px;
+  width: 195px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.input_email {
+  background-color: var(--inputFill);
+  height: 40px;
+  width: 195px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.input_password {
+  background-color: var(--inputFill);
+  height: 40px;
+  width: 195px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.input_password-confirm {
+  background-color: var(--inputFill);
+  height: 40px;
+  width: 195px;
   border-radius: 15px;
   padding: 10px;
 }
