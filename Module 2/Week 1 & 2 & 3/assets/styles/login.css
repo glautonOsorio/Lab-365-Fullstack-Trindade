@@ -21,14 +21,14 @@ body {
   gap: 10px;
 }
 
-.input1 {
+.input_email {
   background-color: var(--inputFill);
   height: 50px;
   width: 400px;
   border-radius: 15px;
   padding: 10px;
 }
-.input2 {
+.input_password {
   background-color: var(--inputFill);
   height: 50px;
   width: 400px;

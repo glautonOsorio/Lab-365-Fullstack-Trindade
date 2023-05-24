@@ -14,28 +14,33 @@
     <link rel="stylesheet" href="./assets/styles/login.css"
   </head>
   <body>
-    <div class="container">
+    <div class="col-sm-12 container">
       <h1><strong>Sign-In</strong></h1>
       <span>Use you email and password to login into your acount</span>
       <form id="formLogin">
         <input
-          class="input1"
           type="email"
-          placeholder="example@hotmail.com"
-          id="email"
-          name="email"
-          required
+          class="col-sm-12 form-control input_email"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          aria-label="E-mail"
+          placeholder="Enter email"
         />
 
         <input
-          class="input2"
           type="password"
-          placeholder="ultrapassword9000"
-          id="password"
-          name="password"
-          required
+          class="col-sm-12 form-control input_password"
+          id="exampleInputPassword1"
+          aria-label="password"
+          placeholder="Password"
         />
-        <button type="button" class="btn btn-success enterBtn">Enter</button>
+        <button
+          aria-label="enter button"
+          type="button"
+          class="col-sm-12 btn btn-success enterBtn"
+        >
+          Enter
+        </button>
         <div class="text">
           <span>
             Esqueceu sua senha? <a class="textLink">Redefinir senha</a></span

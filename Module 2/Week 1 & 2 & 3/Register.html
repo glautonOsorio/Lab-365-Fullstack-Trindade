@@ -14,65 +14,79 @@
     <link rel="stylesheet" href="./assets/styles/register.css"
   </head>
   <body>
-    <div class="container">
+    <div class="col-md-12 container">
       <h1><strong>Sign-Up</strong></h1>
       <span>Use you email and password to login into your acount</span>
       <form id="formLogin">
         <input
           type="text"
-          class="form-control inputCompany"
+          class="col-md-12 form-control inputCompany"
           placeholder="Company"
           aria-label="Company"
           aria-describedby="basic-addon1"
         />
         <input
           type="text"
-          class="form-control input_cnpj"
+          class="col-md-12 form-control input_cnpj"
           placeholder="CNPJ"
           aria-label="CNPJ"
           aria-describedby="basic-addon1"
         />
         <input
           type="text"
-          class="form-control input_ceo"
+          class="col-md-12 form-control input_ceo"
           placeholder="Ceo"
           aria-label="Ceo"
           aria-describedby="basic-addon1"
         />
-        <div class="containerRow1">
+        <div class="col-md-12 containerRow1">
           <input
             type="text"
-            class="form-control input_telephone"
+            class="col-md-12 form-control input_telephone"
             placeholder="Telephone"
             aria-label="Telephone"
             aria-describedby="basic-addon1"
           />
           <input
             type="email"
-            class="form-control input_email"
+            class="col-md-12 form-control input_email"
             id="exampleInputEmail1"
+            aria-label="email"
             aria-describedby="emailHelp"
             placeholder="Enter email"
           />
         </div>
-        <div class="containerRow2">
+        <div class="col-md-12 containerRow2">
           <input
             type="password"
-            class="form-control input_password"
+            class="col-md-12 form-control input_password"
+            aria-label="password"
             id="exampleInputPassword1"
             placeholder="Password"
           />
           <input
             type="password"
-            class="form-control input_password-confirm"
+            class="col-md-12 form-control input_password-confirm"
+            aria-label="confirmPassword"
             id="exampleInputPassword1"
             placeholder="Confirm Password"
           />
         </div>
 
-        <button type="button" class="btn btn-success enterBtn">Enter</button>
-        <div class="text">
-          <span> Ja tem uma conta? <a class="textLink">Realizar login</a></span>
+        <button
+          aria-label="register button"
+          type="button"
+          class="col-md-12 btn btn-success enterBtn"
+        >
+          Enter
+        </button>
+        <div class="col-md-12 text">
+          <span>
+            Ja tem uma conta?
+            <a aria-label="login link" class="textLink" href="./Login.html"
+              >Realizar login</a
+            ></span
+          >
         </div>
       </form>
     </div>
