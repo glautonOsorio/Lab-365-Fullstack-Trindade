@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.foto {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  /* background-color: gray; */
+  border-radius: 50%;
+  border: 1px black solid;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 20px;
+}
