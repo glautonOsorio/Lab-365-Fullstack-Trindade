@@ -11,6 +11,7 @@ body {
   color: var(--normalText);
   text-align: center;
   display: block;
+  position: relative;
 }
 
 #formLogin {
