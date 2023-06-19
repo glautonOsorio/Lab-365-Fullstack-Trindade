@@ -1,0 +1,41 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-family: "Times New Roman";
+}
+
+.containerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: orangered;
+  height: 275px;
+}
+
+.footerTittle {
+  color: black;
+  margin-top: 20px;
+  font-family: serif !important;
+  font-weight: 500px;
+  font-size: 50px;
+}
+
+.firstMenu,
+.secondMenu,
+.thirdMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  color: whitesmoke;
+}
+
+.footerList1,
+.footerList2 {
+  border-bottom: 2px solid black;
+}
+.footerSpan {
+  background-color: orangered;
+  margin-bottom: 10px;
+}
