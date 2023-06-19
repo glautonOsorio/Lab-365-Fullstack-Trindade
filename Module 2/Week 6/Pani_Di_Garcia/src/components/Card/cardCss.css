@@ -49,9 +49,26 @@ h3 {
 }
 
 .cardPrice {
+  display: flex;
+  border: 2px solid black;
+  background-color: #ea7246;
+  border-radius: 50px;
+  width: 100px;
+  font-weight: bold;
+  color: black;
   font-size: 25px;
-  padding: 10px;
   font-family: serif !important;
+  align-items: center;
+  justify-content: center;
 }
 .cardButton {
+  display: flex;
+  border: 2px solid black;
+  background-color: #ea7246;
+  border-radius: 50px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  align-items: center;
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import "./cardCss.css";
+import PropTypes from "prop-types";
 
 function Card({ itens }) {
   return (
     <>
-      {itens.map((item, index) => {
+      {itens.map((item) => {
         return (
-          <div key={index} className="cardContainer">
+          <div key={item.id} className="cardContainer">
             <div className="cardContent">
               <div className="cardImageContainer">
                 <img src={item?.image} alt="erro" />
@@ -26,5 +27,11 @@ function Card({ itens }) {
     </>
   );
 }
+Card.propTypes = {
+  name: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  description: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
+};
 
 export default Card;

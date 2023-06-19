@@ -14,7 +14,7 @@ function App() {
       name: "Focaccia",
       description:
         "Um pão Italino bem fofo e crocante, com bastante azeite e recheio de sua escolha",
-      price: "50.00",
+      price: 50.0,
       image: Focaccia,
     },
     {
@@ -22,7 +22,7 @@ function App() {
       name: "Torta de Ganache",
       description:
         "Uma torta de biscoito com manteiga e com recheio de ganache de chocolate",
-      price: "20.00",
+      price: 20.0,
       image: TortaGanache,
     },
     {
@@ -30,7 +30,7 @@ function App() {
       name: "Bolo de Paçoca",
       description:
         "Um bolo de massa de paçoca com 2 camadas de brigadeiro de paçoca, cobertura de ganache de chocolate amargo e paçoca quebrada como decoração",
-      price: "30.00",
+      price: 30.0,
       image: BoloPaçoca,
     },
   ];
@@ -38,7 +38,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Banner />
+      <Banner span="Escolha seus produtos" h2="Os melhores de SouthTown" />
       <Card itens={products} />
       <Footer />
     </div>
