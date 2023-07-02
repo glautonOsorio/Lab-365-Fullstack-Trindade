@@ -1,0 +1,74 @@
+.cardContainer {
+  background-color: #ea7246;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-family: "Times New Roman";
+}
+.cardContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e63d00;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 350px;
+  height: auto;
+  border-radius: 50px;
+  padding: 10px;
+}
+h3 {
+  font-family: serif !important;
+  text-align: left;
+  font-size: 30px !important;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cardDescription {
+  text-align: left;
+  display: block;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.cardBottomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.cardPrice {
+  display: flex;
+  border: 2px solid black;
+  background-color: #ea7246;
+  border-radius: 50px;
+  width: 100px;
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  font-family: serif !important;
+  align-items: center;
+  justify-content: center;
+}
+.cardButton {
+  display: flex;
+  border: 2px solid black;
+  background-color: #ea7246;
+  border-radius: 50px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  align-items: center;
+}
