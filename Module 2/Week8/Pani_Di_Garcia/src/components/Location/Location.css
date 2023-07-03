@@ -1,0 +1,50 @@
+.locationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ff4400ce;
+  margin: 100px;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: #000000;
+  border-width: 3px;
+  width: 1200px;
+  font-family: "Times New Roman";
+  color: whitesmoke;
+}
+
+.locationSecondContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.locationContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locationTitle {
+  display: flex !important;
+  font-family: serif !important;
+  font-size: 50px !important;
+  align-items: start !important;
+  color: black;
+  margin: 10px;
+  margin-top: -100px;
+}
+
+.locationList {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  justify-content: space-evenly;
+  border-left: 3px ridge black;
+  margin: 10px;
+  gap: 10px;
+}
+
+.locationSpan {
+  font-size: 15px !important;
+  margin-top: 45px;
+}

@@ -1,0 +1,105 @@
+.contactPage {
+  background-color: #ea7246a1;
+  margin: 0px;
+  padding: 0px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff4400ce;
+  font-family: "Times New Roman";
+  color: whitesmoke;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: #000000;
+  border-width: 1px;
+  width: 750px;
+  height: 500px;
+  margin: 20px;
+}
+
+.formTitle {
+  font-family: serif !important;
+  font-weight: 500px !important;
+  font-size: 50px !important;
+  color: black !important;
+  margin: 10px;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 10px;
+  margin: 10px;
+}
+
+.formLabelInput {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: serif !important;
+  font-weight: 500px !important;
+  font-size: 25px !important;
+}
+input {
+  font-size: 20px !important;
+  border-radius: 15px;
+  border-style: ridge;
+  border-color: #000000;
+  background-color: #faead2;
+  font-weight: normal;
+  font-family: sans-serif;
+  padding: 10px;
+  border-width: 3px;
+}
+input:focus {
+  outline: none;
+}
+
+.formInputArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.labelEmail {
+  display: flex;
+  flex-direction: row;
+}
+#email {
+  display: flex;
+  width: 600px;
+}
+
+.formTextarea {
+  display: flex;
+  font-size: 15px !important;
+  border-radius: 15px;
+  border-style: ridge;
+  border-color: #000000;
+  background-color: #faead2;
+  font-weight: normal;
+  font-family: sans-serif;
+  padding: 10px;
+  border-width: 3px;
+  width: 600px;
+  height: 150px;
+  margin: 10px;
+}
+
+.formFooter {
+  display: flex;
+  justify-content: right !important;
+}

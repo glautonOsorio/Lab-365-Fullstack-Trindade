@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Form.css";
 
 const Form = () => {
   const [data, setData] = useState({
@@ -20,49 +21,61 @@ const Form = () => {
     console.log(data);
   };
   return (
-    <div>
+    <div className="formContainer">
       <form onSubmit={handleSubmit}>
-        <h3> Deixe sua mensagem</h3>
-        <div>
+        <div className="formContent">
+          <h3 className="formTitle"> Deixe sua mensagem</h3>
           <div>
-            <label htmlFor="name">Nome</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Seu nome"
-              onChange={handleChange}
-              required
-            />
-            <label htmlFor="telephone">Telefone</label>
-            <input
-              type="number"
-              name="telephone"
-              id="telephone"
-              placeholder="99-9999-9999"
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="email">E-mail</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="exemplo@gmail.com"
-              onChange={handleChange}
-              required
-            />
-            <textarea
-              name="message"
-              onChange={handleChange}
-              required
-            ></textarea>
-          </div>
-          <div>
-            <span> 0 de 500 caracteres.</span>
-            <button type="submit">Enviar</button>
+            <div className="formRow">
+              <div className="formLabelInput">
+                <label htmlFor="name">Nome:</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Seu nome"
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+
+              <div className="formLabelInput">
+                <label htmlFor="telephone">Telefone:</label>
+                <input
+                  type="number"
+                  name="telephone"
+                  id="telephone"
+                  placeholder="99-9999-9999"
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+            </div>
+            <div className="formInputArea">
+              <div>
+                <label className="labelEmail" htmlFor="email">
+                  E-mail
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="exemplo@gmail.com"
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <textarea
+                className="formTextarea"
+                name="message"
+                onChange={handleChange}
+                required
+              ></textarea>
+            </div>
+            <div className="formFooter">
+              <span> 0 de 500 caracteres.</span>
+              <button type="submit">Enviar</button>
+            </div>
           </div>
         </div>
       </form>

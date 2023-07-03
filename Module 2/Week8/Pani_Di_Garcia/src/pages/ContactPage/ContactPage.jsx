@@ -17,11 +17,13 @@ const ContactPage = () => {
   }, []);
   return (
     <>
-      <Header />
-      <Banner />
-      <Form />
-      <Location />
-      <Footer />
+      <div className="contactPage">
+        <Header />
+        <Banner />
+        <Form />
+        <Location />
+        <Footer />
+      </div>
     </>
   );
 };
