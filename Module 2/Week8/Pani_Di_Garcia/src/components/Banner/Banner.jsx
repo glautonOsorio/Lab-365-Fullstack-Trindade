@@ -2,16 +2,15 @@ import React, { useContext } from "react";
 import "./banner.css";
 import { BannerContext } from "../../contexts/BannerContext";
 
-const Banner = ({ title, subTitle }) => {
-  const { bannerData, setBannerData } = useContext(BannerContext);
+const Banner = () => {
+  const { bannerData } = useContext(BannerContext);
 
-  setBannerData({ title, subTitle });
   return (
     <nav>
       <div className="bannerContent">
-        <span>{title}</span>
+        <span>{bannerData.title}</span>
         <h2>
-          {subTitle}
+          {bannerData.subTitle}
           <span className="bannerDot">.</span>
         </h2>
       </div>

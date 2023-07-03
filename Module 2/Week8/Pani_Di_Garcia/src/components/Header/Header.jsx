@@ -20,8 +20,8 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to={"/*"} className="link">
-                Sobre
+              <Link to={"/faq"} className="link">
+                FAQ
               </Link>
             </li>
           </ul>

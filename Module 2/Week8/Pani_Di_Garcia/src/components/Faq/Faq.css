@@ -1,0 +1,46 @@
+.faqBackground {
+  background-color: #ea7246a1;
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  padding: 10px;
+  font-family: "Times New Roman";
+}
+
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: orangered;
+  width: 900px;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.faqSubmit {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 850px;
+  height: 50px;
+  margin: 10px;
+}
+.faqBtn {
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+.faqBtn:hover {
+  background-color: #e2dada !important;
+}
+
+.faqAccordion {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 850px;
+  height: 50px;
+  margin: 15px;
+  font-family: "Times New Roman" !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}

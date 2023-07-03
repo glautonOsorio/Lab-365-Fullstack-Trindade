@@ -6,6 +6,8 @@ import Footer from "../../components/Footer/Footer";
 import Focaccia from "../../assets/FocacciacomTopping.jpeg";
 import BoloPaçoca from "../../assets/BolodePaçoca.jpeg";
 import TortaGanache from "../../assets/Tortaganache.jpeg";
+import { BannerContext } from "../../contexts/BannerContext";
+import { useContext, useEffect } from "react";
 
 export const ProductPage = () => {
   const products = [
@@ -34,11 +36,19 @@ export const ProductPage = () => {
       image: BoloPaçoca,
     },
   ];
+  const { setBannerData } = useContext(BannerContext);
+
+  useEffect(() => {
+    setBannerData({
+      title: "Escolha seus produtos",
+      subTitle: "Os melhores de SouthTown",
+    });
+  }, []);
 
   return (
     <>
       <Header />
-      <Banner title="5767567563" subTitle="testesfastgfagfgateste" />
+      <Banner />
       <Card itens={products} />
       <Footer />
     </>

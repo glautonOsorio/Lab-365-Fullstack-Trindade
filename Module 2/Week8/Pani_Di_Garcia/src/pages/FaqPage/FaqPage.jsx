@@ -1,29 +1,28 @@
-import { useContext, useEffect } from "react";
 import Banner from "../../components/Banner/Banner";
+import Faq from "../../components/Faq/Faq";
 import Footer from "../../components/Footer/Footer";
-import Form from "../../components/Form/Form";
 import Header from "../../components/Header/Header";
-import Location from "../../components/Location/Location";
-import { BannerContext } from "../../contexts/BannerContext";
 
-const ContactPage = () => {
+import { BannerContext } from "../../contexts/BannerContext";
+import { useContext, useEffect } from "react";
+
+const FaqPage = () => {
   const { setBannerData } = useContext(BannerContext);
 
   useEffect(() => {
     setBannerData({
-      title: "Deixe uma mensagem ou",
-      subTitle: "Venha visitar nossa padaria",
+      title: "Aqui esta uma lista",
+      subTitle: "Das perguntas mais frequentes",
     });
   }, []);
   return (
     <>
       <Header />
       <Banner />
-      <Form />
-      <Location />
+      <Faq />
       <Footer />
     </>
   );
 };
 
-export default ContactPage;
+export default FaqPage;
