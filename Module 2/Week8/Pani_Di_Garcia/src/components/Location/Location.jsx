@@ -8,7 +8,7 @@ const Location = () => {
         height="450"
       ></iframe>
       <div className="locationSecondContainer">
-        <span className="locationTitle">Matriz</span>
+        <span className="locationTitle">Local</span>
         <div className="locationContent">
           <div className="locationList">
             <li>Isola Maggiore, 06069, Tuoro sul Trasimeno</li>
