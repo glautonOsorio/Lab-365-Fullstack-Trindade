@@ -73,8 +73,10 @@ const Form = () => {
               ></textarea>
             </div>
             <div className="formFooter">
-              <span> 0 de 500 caracteres.</span>
-              <button type="submit">Enviar</button>
+              <span className="formTextCount"> 0 de 500 caracteres.</span>
+              <button className="formButton" type="submit">
+                Enviar
+              </button>
             </div>
           </div>
         </div>

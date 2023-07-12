@@ -1,5 +1,4 @@
 .contactPage {
-  background-color: #ea7246a1;
   margin: 0px;
   padding: 0px;
 }
@@ -15,23 +14,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #ff4400ce;
-  font-family: "Times New Roman";
-  color: whitesmoke;
+  background-image: linear-gradient(to bottom right, #f4a460 80%, #f9efd7 100%);
+  font-family: Arial;
+  font-size: 1.6rem;
+  color: #461e00;
   border-radius: 10px;
   border-style: ridge;
   border-color: #000000;
   border-width: 1px;
-  width: 750px;
-  height: 500px;
+  width: 50rem;
+  height: 35rem;
   margin: 20px;
 }
 
 .formTitle {
-  font-family: serif !important;
-  font-weight: 500px !important;
-  font-size: 50px !important;
-  color: black !important;
+  background: linear-gradient(to bottom right, #800000, #000000 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 500px;
+  font-family: serif;
+  font-size: 5rem;
   margin: 10px;
 }
 
@@ -88,7 +90,7 @@ input:focus {
   font-size: 15px !important;
   border-radius: 15px;
   border-style: ridge;
-  border-color: #000000;
+  box-shadow: 2px 2px 2px black;
   background-color: #faead2;
   font-weight: normal;
   font-family: sans-serif;
@@ -101,5 +103,29 @@ input:focus {
 
 .formFooter {
   display: flex;
-  justify-content: right !important;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.formTextCount {
+  position: relative;
+  left: 4rem;
+}
+
+.formButton {
+  position: relative;
+  display: flex;
+  border: 0.2rem solid #000000;
+  background-image: linear-gradient(to top, #cd853f 10%, #f4a460);
+  width: 6rem;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  left: 5rem;
+  top: 1rem;
+}
+
+.formButton:hover {
+  background-image: linear-gradient(to bottom right, #f4a460 20%, #f9efd7);
 }

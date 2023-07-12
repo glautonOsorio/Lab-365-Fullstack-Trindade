@@ -1,117 +1,187 @@
 .cardContainer {
-  background-color: #ea7246a1;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  font-family: "Times New Roman";
+  font-family: Arial;
 }
 .cardContent {
+  background-image: linear-gradient(to right, #f4a460 90%, #f9efd7);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background-color: #e63d00;
-  border-radius: 10px;
-  padding: 10px;
+  width: 62rem;
+  margin: 2rem;
 }
 
-img {
-  width: 350px;
-  height: auto;
-  border-radius: 50px;
-  padding: 10px;
-}
-
-h3 {
-  font-family: serif !important;
-  text-align: left;
-  font-size: 30px !important;
+.cardImage {
+  width: 40vw;
+  border-radius: 1rem;
 }
 
 .cardList {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
+  justify-content: center;
+  width: 62rem;
+  margin-left: 1rem;
 }
+.cardName {
+  background: linear-gradient(to bottom right, #800000, #000000 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: serif;
+  width: max-content;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
 .cardDescription {
-  text-align: left;
+  text-align: justify;
+  font-size: 1.6rem;
+  color: #461e00;
   display: block;
-  width: 200px;
-  padding: 10px;
-  font-size: 20px;
-  color: whitesmoke;
+  width: 100%;
+  text-align: left;
+  margin-right: 1rem;
 }
 
 .cardBottomRow {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  padding: 10px;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 5rem;
+  padding: 1rem;
 }
 
 .cardPrice {
+  position: relative;
   display: flex;
-  border: 2px solid black;
-  background-color: #ea7246;
-  border-radius: 50px;
-  width: 100px;
+  width: 5rem;
   font-weight: bold;
-  color: black;
-  font-size: 25px;
-  font-family: serif !important;
-  align-items: center;
-  justify-content: center;
+  color: #800000;
+  font-size: 2.5rem;
+  font-family: serif;
+  margin-right: 5rem;
 }
 .cardButton {
-  display: flex !important;
-  border: 2px solid black !important;
-  background-color: #ea7246 !important;
-  border-radius: 50px !important;
-  width: 100px;
-  font-weight: bold !important;
-  font-size: 25px !important;
-  color: black !important;
-  text-align: center !important;
+  display: flex;
+  background-image: linear-gradient(to top, #cd853f 10%, #f4a460);
+  border: 0.2rem solid #000000;
+  border-radius: 2rem;
+  width: 12rem;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
   justify-content: center;
+}
+
+.cardButton:hover {
+  background-image: linear-gradient(to bottom right, #f4a460 20%, #f9efd7);
 }
 
 .togleContainer {
   position: fixed;
+  display: flex;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  justify-content: center;
+
   background-color: rgb(0, 0, 0, 0.5);
-  padding-top: 10%;
 }
 
+.togleContent {
+  display: flex;
+  flex-direction: column;
+}
 .togleBody {
-  width: 80%;
-  height: 80%;
-  background-color: #e63d00;
-  border: 5px ridge black;
-  margin: auto;
+  background-image: linear-gradient(to right, #f4a460 90%, #f9efd7);
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 66rem;
+  height: 30rem;
 }
 
 .togleHeader {
-  width: 90%;
-  color: whitesmoke;
   text-align: right;
+  margin: 1rem;
 }
-.togleImage {
-  width: 70vh;
-  height: 50vh;
-  border-radius: 50px;
-  padding: 10px;
-  transition: transform 0.2s;
+
+.togleButton {
+  position: fixed;
+  margin-left: -2rem;
+  margin-top: -3rem;
+  width: 5rem;
+  font-size: 2rem;
+  border: 0.2rem solid #000000;
+  border-radius: 2rem;
+  color: black;
+  background-image: linear-gradient(to top, #cd853f 10%, #f4a460);
 }
-.togleImage:hover {
-  width: 100%;
-  height: auto;
-  transform: scale(1.5);
+
+.togleButton:hover {
+  background-image: linear-gradient(to bottom right, #f4a460 20%, #f9efd7);
 }
 
 .togleCard {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.togleImage {
+  width: 35rem;
+  border-radius: 1rem;
+  padding: 10px;
+  margin: 1rem;
+  transition: transform 0.2s;
+}
+.togleImage:hover {
+  width: 90%;
+  height: auto;
+  transform: scale(1.5);
+}
+
+.togleText {
+  display: flex;
+  flex-direction: column;
+}
+.togleName {
+  background: linear-gradient(to bottom right, #800000, #000000 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: serif;
+  width: max-content;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+
+.togleDescription {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.togleList {
+  text-align: justify;
+  font-size: 1rem;
+  color: #461e00;
+  display: block;
+  text-align: left;
+  margin-right: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.toglePrice {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #800000;
+  width: 5rem;
 }

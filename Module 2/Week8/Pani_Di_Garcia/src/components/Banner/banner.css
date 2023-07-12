@@ -1,25 +1,23 @@
 .bannerContent {
   display: flex;
   flex-direction: column;
-  background-color: orangered;
-  color: whitesmoke;
+  background-image: linear-gradient(to bottom right, #cd853f 10%, #f4a460);
+  color: #461e00;
   padding: 10px;
   font-family: "Times New Roman";
 }
-span {
-  font-size: 25px !important;
+.bannerTitle {
+  font-size: 2rem;
 }
-h2 {
+.bannerSubTitle {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: baseline;
-}
-h2 {
-  font-size: 50px !important;
+  font-size: 4rem;
 }
 .bannerDot {
-  font-size: 50px !important;
-  color: black;
+  font-size: 5rem;
+  color: #800000;
   font-weight: bolder;
 }

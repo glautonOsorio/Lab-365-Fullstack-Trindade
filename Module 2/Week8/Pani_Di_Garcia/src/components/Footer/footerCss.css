@@ -1,6 +1,3 @@
-footer {
-  height: 100%;
-}
 .footerContainer {
   display: flex;
   flex-direction: column;
@@ -12,18 +9,20 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: orangered;
+  background-image: linear-gradient(to top, #cd853f 10%, #f4a460);
   height: 100%;
   padding: 10px;
 }
 
 .footerTittle {
-  color: black;
-  margin-top: 20px;
+  background: linear-gradient(to bottom right, #800000, #000000 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 1rem;
   font-family: serif !important;
   font-weight: 500px;
-  font-size: 50px;
-  padding: 10px;
+  font-size: 3rem;
+  padding: 0.8rem;
 }
 
 .firstMenu,
@@ -31,15 +30,11 @@ footer {
 .thirdMenu {
   display: flex;
   flex-direction: column;
+  justify-content: left;
   justify-content: space-between;
-  gap: 10px;
-  color: whitesmoke;
+  color: #461e00;
 }
 
-.footerList1,
-.footerList2 {
-  border-bottom: 2px solid black;
-}
 .footerSpan {
-  background-color: orangered;
+  background-image: linear-gradient(to bottom right, #cd853f 80%, #f4a460);
 }

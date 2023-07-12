@@ -8,8 +8,8 @@ const Banner = () => {
   return (
     <nav>
       <div className="bannerContent">
-        <span>{bannerData.title}</span>
-        <h2>
+        <span className="bannerTitle">{bannerData.title}</span>
+        <h2 className="bannerSubTitle">
           {bannerData.subTitle}
           <span className="bannerDot">.</span>
         </h2>

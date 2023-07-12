@@ -1,1 +1,9 @@
 @import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+body {
+  background-image: url("./public/Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1.5;
+}

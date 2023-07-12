@@ -1,6 +1,7 @@
 import Banner from "../../components/Banner/Banner";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import NotFound from "../../components/NotFoundCard/NotFoundCard";
 
 import { BannerContext } from "../../contexts/BannerContext";
 import { useContext, useEffect } from "react";
@@ -18,6 +19,7 @@ const NotFoundPage = () => {
     <>
       <Header />
       <Banner />
+      <NotFound />
       <Footer />
     </>
   );

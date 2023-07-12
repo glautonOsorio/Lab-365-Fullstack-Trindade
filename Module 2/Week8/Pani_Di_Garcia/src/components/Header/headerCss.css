@@ -1,12 +1,11 @@
 header {
   display: flex;
   flex-direction: column;
-  background-color: orangered;
+  background-image: linear-gradient(to top right, #cd853f 10%, #f4a460);
   height: 150px;
   gap: 10px;
   padding: 10px;
-  color: whitesmoke;
-  font-family: "Times New Roman";
+  font-family: Arial;
 }
 
 .headerContainer {
@@ -16,32 +15,35 @@ header {
 }
 
 .headerH1 {
-  color: black;
+  background: linear-gradient(to bottom right, #ff8c00, #800000 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
   margin-top: 20px;
   font-family: serif !important;
   font-weight: 500px;
-  font-size: 75px;
+  font-size: 5rem;
 }
 .headerList {
   display: flex;
-  margin: 0px 50px;
+  margin: 1rem;
   top: 20px;
   flex-direction: row;
-  width: 300px;
+  width: 25rem;
   justify-content: space-between;
 }
 
 li {
   list-style-type: none;
-  font-size: 25px;
+}
+.link {
+  text-decoration: none !important;
+  color: #461e00;
+  font-size: 2rem;
   cursor: pointer;
 }
 
-.link {
-  text-decoration: none !important;
-  position: relative;
-  color: whitesmoke !important;
-}
-.link:hover::after {
-  width: 100%;
+.link:hover {
+  color: #ffd700;
 }

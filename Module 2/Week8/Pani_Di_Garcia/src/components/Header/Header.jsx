@@ -10,7 +10,7 @@ const Header = () => {
           <h1 className="headerH1">Pane Di Garcia</h1>
           <ul className="headerList">
             <li>
-              <Link to={"/products"} className="link">
+              <Link to={"/"} className="link">
                 Produtos
               </Link>
             </li>
