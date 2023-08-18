@@ -1,0 +1,191 @@
+[
+  {
+    "id": "p1",
+    "name": "Smartphone X",
+    "description": "Smartphone poderoso com recursos avançados.",
+    "price": 499.99,
+    "currency": "USD",
+    "category": "Eletrônicos",
+    "stock": 100,
+    "seller": "TechHub Inc.",
+    "average_rating": 4.7,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_698473-MLU69823711795_062023-O.webp",
+    "features": ["Conectividade 5G", "Câmera de alta resolução", "Reconhecimento facial"],
+    "specifications": {
+      "dimensions": "6.2 pol x 3 pol x 0.3 pol",
+      "weight": "0.35 lbs",
+      "color": "Prata",
+      "storage_capacity": "128GB",
+      "display_type": "AMOLED"
+    },
+    "reviews": []
+  },
+  {
+    "id": "p2",
+    "name": "Notebook Pro",
+    "description": "Notebook rápido e confiável para trabalho e entretenimento.",
+    "price": 899.99,
+    "currency": "USD",
+    "category": "Computadores",
+    "stock": 50,
+    "seller": "MegaTech Solutions",
+    "average_rating": 4.9,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_911631-MLA53524062714_012023-O.webp",
+    "features": ["Processador Intel Core i7", "16GB RAM", "512GB SSD"],
+    "specifications": {
+      "dimensions": "13 pol x 9 pol x 0.8 pol",
+      "weight": "3.2 lbs",
+      "color": "Cinza",
+      "graphics_card": "NVIDIA GeForce GTX 1650",
+      "operating_system": "Windows 10"
+    },
+    "reviews": []
+  },
+  {
+    "id": "p3",
+    "name": "Fones de Ouvido sem Fio",
+    "description": "Fones de ouvido sem fio de alta qualidade para uma experiência de áudio imersiva.",
+    "price": 79.99,
+    "currency": "USD",
+    "category": "Áudio",
+    "stock": 200,
+    "seller": "SoundGuru Inc.",
+    "average_rating": 4.5,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_982666-MLU69497207103_052023-O.webp",
+    "features": ["Cancelamento de Ruído", "Longa Duração da Bateria", "Bluetooth 5.0"],
+    "specifications": {
+      "dimensions": "1 pol x 0.8 pol x 0.5 pol",
+      "weight": "0.1 lbs",
+      "color": "Branco",
+      "battery_life": "Até 8 horas",
+      "water_resistant": true
+    },
+    "reviews": []
+  },
+  {
+    "id": "p4",
+    "name": "Monitor Cardíaco",
+    "description": "Monitore sua saúde e atividades físicas com este monitor cardíaco.",
+    "price": 49.99,
+    "currency": "USD",
+    "category": "Fitness",
+    "stock": 150,
+    "seller": "FitLife Store",
+    "average_rating": 4.3,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_943667-MLU70618916177_072023-O.webp",
+    "features": ["Monitor de Frequência Cardíaca", "Contador de Passos", "Rastreamento de Sono"],
+    "specifications": {
+      "dimensions": "2 pol x 0.8 pol x 0.4 pol",
+      "weight": "0.05 lbs",
+      "color": "Preto",
+      "display_type": "OLED",
+      "compatibility": "iOS e Android"
+    },
+    "reviews": []
+  },
+  {
+    "id": "p5",
+    "name": "Console de Jogos",
+    "description": "Experimente jogos como nunca antes com este console.",
+    "price": 349.99,
+    "currency": "USD",
+    "category": "Jogos",
+    "stock": 80,
+    "seller": "GameZone Ltd.",
+    "average_rating": 4.8,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_641295-MLA69573719686_052023-O.webp",
+    "features": ["Suporte a Jogos 4K", "Gráficos de Alta Fidelidade", "Múltiplas Portas USB"],
+    "specifications": {
+      "dimensions": "12 pol x 6 pol x 2 pol",
+      "weight": "4 lbs",
+      "color": "Preto",
+      "storage_capacity": "1TB",
+      "controller_type": "Sem Fio"
+    },
+    "reviews": []
+  },
+  {
+    "id": "p6",
+    "name": "Caixa de Som Bluetooth Portátil",
+    "description": "Leve sua música para qualquer lugar com esta caixa de som portátil.",
+    "price": 39.99,
+    "currency": "USD",
+    "category": "Áudio",
+    "stock": 120,
+    "seller": "TuneBeats",
+    "average_rating": 4.6,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_756091-MLB54144420545_032023-O.webp",
+    "features": ["Microfone Embutido", "À Prova d'Água", "Bateria com Duração de 12 horas"],
+    "specifications": {
+      "dimensions": "7 pol x 3 pol x 2.5 pol",
+      "weight": "0.8 lbs",
+      "color": "Vermelho",
+      "bluetooth_version": "5.1"
+    },
+    "reviews": []
+  },
+  {
+    "id": "p7",
+    "name": "Smart TV HD",
+    "description": "Curta seus programas e filmes favoritos em incrível alta definição.",
+    "price": 599.99,
+    "currency": "USD",
+    "category": "Eletrônicos",
+    "stock": 30,
+    "seller": "TechVision",
+    "average_rating": 4.7,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_628003-MLU69483714148_052023-O.webp",
+    "features": ["Smart TV com Aplicativos", "Controle por Voz", "Ângulo de Visão Amplo"],
+    "specifications": {
+      "dimensions": "48 pol x 28 pol x 3 pol",
+      "weight": "25 lbs",
+      "color": "Preto",
+      "display_size": "55 polegadas",
+      "resolution": "4K UHD"
+    },
+    "reviews": []
+  },
+  {
+    "id": "p8",
+    "name": "Câmera Digital",
+    "description": "Capture momentos preciosos com esta câmera de alta resolução.",
+    "price": 299.99,
+    "currency": "USD",
+    "category": "Câmeras",
+    "stock": 70,
+    "seller": "CaptureIt",
+    "average_rating": 4.4,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_813721-MLA42562035351_072020-O.webp",
+    "features": ["Sensor de 24MP", "Gravação de Vídeo 4K", "Conectividade Wi-Fi"],
+    "specifications": {
+      "dimensions": "4 pol x 3 pol x 2.5 pol",
+      "weight": "0.6 lbs",
+      "color": "Prata",
+      "zoom_range": "18-55mm",
+      "image_stabilization": true
+    },
+    "reviews": []
+  },
+  {
+    "id": "p9",
+    "name": "Mouse de Jogos sem Fio",
+    "description": "Experimente a liberdade do jogo com este mouse de jogos sem fio.",
+    "price": 59.99,
+    "currency": "USD",
+    "category": "Acessórios",
+    "stock": 100,
+    "seller": "GamerTech",
+    "average_rating": 4.5,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_950178-MLB54970781102_042023-O.webp",
+    "features": ["Sensor de Precisão", "Iluminação RGB Personalizável", "Conexão de Baixa Latência"],
+    "specifications": {
+      "dimensions": "4.5 pol x 2.5 pol x 1.5 pol",
+      "weight": "0.15 lbs",
+      "color": "Preto",
+      "dpi_range": "800-16000",
+      "battery_life": "Até 30 horas"
+    },
+    "reviews": []
+  }
+]
+

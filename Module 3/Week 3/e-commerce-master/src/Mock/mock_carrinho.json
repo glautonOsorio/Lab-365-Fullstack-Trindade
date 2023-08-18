@@ -1,0 +1,45 @@
+[
+  {
+    "id": "p1",
+    "name": "Smartphone X",
+    "description": "Smartphone poderoso com recursos avançados.",
+    "price": 499.99,
+    "currency": "USD",
+    "category": "Eletrônicos",
+    "stock": 100,
+    "seller": "TechHub Inc.",
+    "average_rating": 4.7,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_698473-MLU69823711795_062023-O.webp",
+    "features": ["Conectividade 5G", "Câmera de alta resolução", "Reconhecimento facial"],
+    "specifications": {
+      "dimensions": "6.2 pol x 3 pol x 0.3 pol",
+      "weight": "0.35 lbs",
+      "color": "Prata",
+      "storage_capacity": "128GB",
+      "display_type": "AMOLED"
+    },
+    "reviews": []
+  },
+  {
+    "id": "p2",
+    "name": "Notebook Pro",
+    "description": "Notebook rápido e confiável para trabalho e entretenimento.",
+    "price": 899.99,
+    "currency": "USD",
+    "category": "Computadores",
+    "stock": 50,
+    "seller": "MegaTech Solutions",
+    "average_rating": 4.9,
+    "images": "https://http2.mlstatic.com/D_NQ_NP_911631-MLA53524062714_012023-O.webp",
+    "features": ["Processador Intel Core i7", "16GB RAM", "512GB SSD"],
+    "specifications": {
+      "dimensions": "13 pol x 9 pol x 0.8 pol",
+      "weight": "3.2 lbs",
+      "color": "Cinza",
+      "graphics_card": "NVIDIA GeForce GTX 1650",
+      "operating_system": "Windows 10"
+    },
+    "reviews": []
+  }
+]
+

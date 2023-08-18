@@ -1,0 +1,52 @@
+.carrinho{
+  height: 100%;
+}
+
+.carrinho-content {
+  display: flex;
+  height: 100%;
+}
+
+.listaCarrinho {
+  border: solid 1px rgba(0, 0, 0, 0.244);
+  background-color: azure;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.itemCarrinho {
+  display: flex;
+  margin: 10px;
+  background-color: rgb(197, 197, 197);
+  border: solid 1px rgba(0, 0, 0, 0.244);
+  padding: 0px;
+  align-items: center;
+  width: 70%;
+  height: 250px;
+}
+
+
+.itemCarrinho img {
+  object-fit: contain;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgba(0, 0, 0, 0.244);
+  width: 200px;
+  height: 200px;
+  margin: 15px 30px;
+}
+
+.carrinho-checkout {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  height: 70%;
+  display: flex;
+}
+
+.carrinho-checkout button{
+  margin-top: 20px;
+}

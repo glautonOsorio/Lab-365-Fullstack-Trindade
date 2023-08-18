@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  min-width: 240px;
+  height: 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.buttons-components {
+  width: 100%;
+  height: 100%;
+  border: solid;
+}
+
+.button.success {
+  background-color: #4BB543;
+  color: #FFF;
+}
