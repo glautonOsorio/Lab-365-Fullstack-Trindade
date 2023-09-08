@@ -1,0 +1,28 @@
+services: # criar serviços em container
+  backend: # serviço chamado backend
+    image: ecomerce:latest # imagem ecomerce(local)
+    restart: always # sempre que eu rodar o docker-compose ele vai dar restart nesse container
+    ports: # port-foward 3333(máquina) -> 3333(docker)
+      - 3333:3333
+    environment:
+      - DB_HOST=db #banco de dados que eu estou acessando
+    networks:
+      - spring-postgres # rede interna do docker que esse service faz parte
+  db:
+    image: postgres
+    restart: always
+    volumes: # volume de dados que o docker vai usar
+      - db-data:/var/lib/postgresql/data # C:var
+    networks:
+      - spring-postgres # rede interna do docker que esse service faz parte
+    environment:
+      - POSTGRES_PASSWORD=root
+      #       POSTGRES_PASSWORD: "root"
+    expose:
+      - 5432
+    ports: # port-foward 3333(máquina) -> 3333(docker)
+      - 5432:5432
+volumes:
+  db-data:
+networks:
+  spring-postgres:

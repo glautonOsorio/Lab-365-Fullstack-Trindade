@@ -1,0 +1,6 @@
+# Iniciar o Projeto
+
+Com o .env devidamente configurado:
+
+1º npm install
+2º npx sequelize-cli db:migrate
